@@ -2,7 +2,12 @@
 using namespace std;
 double add(double a, double b) {
     return a+b;
+    
 }
+double division(double a, double b) {
+    return a/b;
+}
+
 
 int main() {
 
