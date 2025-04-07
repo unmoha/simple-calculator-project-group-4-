@@ -29,6 +29,9 @@ int main() {
  case '/':
  cout << "Result: " << divide(num1, num2) << endl;
  break;
+  case '%': 
+  cout << "Result: " << modulo(num1, num2) << endl;
+  break;
  default:
  cout << "Invalid operation!" << endl;
  }   return 0
