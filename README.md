@@ -14,7 +14,7 @@ logic.
 1. Clone the repository:
  ```bash
  git clone https://github.com/unmoha/simple-
-calculator.git
+calculator-project-group-4-.git
  cd simple-calculator
 2. Compile the program:
 bash
