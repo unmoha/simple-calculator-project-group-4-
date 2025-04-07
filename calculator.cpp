@@ -1,10 +1,11 @@
 #include<iostream>
 using namespace std;
-double add(double a, double b) {
-    return a+b;
-}
-
-int main() {int num1, num2;
+int add(int a, int b);
+int subtract(int a, int b);
+int multiply(int a, int b);
+int divide(int a, int b);
+int main() {
+ int num1, num2;
  char operation;
  cout << "Enter two numbers: ";
  cin >> num1 >> num2;
@@ -25,14 +26,13 @@ int main() {int num1, num2;
  break;
  default:
  cout << "Invalid operation!" << endl;
- }
-   }
-
-
-
-
-
-
-
-    return 0;
+ }   return 0
+     }
+double add(double a, double b) {
+    return a+b;
 }
+
+
+
+
+
