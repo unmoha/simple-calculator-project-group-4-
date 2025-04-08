@@ -2,6 +2,7 @@
 
 
 
+
 =======
 #include<iostream>
 using namespace std;
@@ -39,6 +40,8 @@ int main() {
 double add(double a, double b) {
     return a+b;
     
+} int subtract(int a, int b) {
+ return a - b;
 }
 double division(double a, double b) {
     return a/b;
@@ -56,3 +59,4 @@ int modulo(int a, int b) {
 
 }
  
+
